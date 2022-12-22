@@ -10,10 +10,21 @@
   </head>
 
   <body>
-    <div class="image"></div>
+    <div class="image">
+      <p
+        onmouseover="aboutMe()"
+        onmouseleave="mouseOut()"
+        style="opacity: 0"
+        class="aboutMe"
+        id="aboutMeVis"
+      >
+        I like to read and oil paint. If you mouse over the greeting, it'll play
+        a line from Starwars. One of my favorite series.
+      </p>
+    </div>
+
     <script src="helloThere.js"></script>
     <div class="name" onmouseenter="helloThere()">Hello there.</div>
-
     <!-- <a href="#" class="links">Resume</a> -->
     <a href="https://www.linkedin.com/in/robert-bolkan/" class="links"
       >Linkedin</a

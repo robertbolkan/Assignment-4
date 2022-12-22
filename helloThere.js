@@ -4,3 +4,13 @@ function helloThere(){
 audio.play();
 
 }
+
+function aboutMe(){
+    // alert("mouseover works")
+    document.getElementById("aboutMeVis").style.opacity=50;
+}
+
+function mouseOut(){
+    //had to make a function because reasons
+    document.getElementById("aboutMeVis").style.opacity=0;
+}
